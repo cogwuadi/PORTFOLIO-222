@@ -84,7 +84,9 @@ body, html{
     margin: 0 auto;
     padding: 0 0.1rem;
 }
-
+/* .hero{
+    display: flex;
+} */
 .hero-1{
     margin-top: 5rem;
 }

@@ -3,8 +3,8 @@
     padding: 0;    
     font-family: sans-serif !important;
     list-style-type: none;
+    text-decoration: none;
 }
-
 :root{
     --nav-color : #104FF2;
     --nav-text-color :#FAF9F9;
@@ -12,7 +12,6 @@
     --text-color : #fff;
     --paragraph-text-color : #000000;
 }
-
 .header{
     height: 100px;
     background-color: #34495e;
@@ -20,18 +19,15 @@
     color: #fff;
     font-family: "monstserrat";
 }
-
 .logo{
     line-height: 100px;
     float: left;
     text-transform: uppercase;
 }
-
 .menu{
     float: right;
     line-height: 100px;
 }
-
 .menu a{
     color: #fff;
     text-transform: uppercase;
@@ -39,38 +35,31 @@
     padding: 0 10px;
     transition: 0.4s;
 }
-
 .show-menu-btn, .hide-menu-btn{
     transition: 0.4s;
     font-size: 30px;
     cursor: pointer;
     display: none;
 }
-
 .show-menu-btn{
     float: right;
 }
-
 .show-menu-btn i{
     line-height: 100px;
 }
-
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
     color: #3498db;
 }
-
 #chk{
     position: absolute;
     visibility: hidden;
     z-index: -1111;
 }
-
 .color{
     color: var(--nav-color);
 }
-
 body, html{
     background-color: var(--body-color);
     height: 100%;
@@ -78,72 +67,56 @@ body, html{
     overflow-x: hidden;
     color: var(--text-color);
 }
-
 .container{
     max-width: 920px;
     margin: 0 auto;
     padding: 0 0.1rem;
 }
-/* .hero{
-    display: flex;
-} */
 .hero-1{
     margin-top: 5rem;
 }
-
 .hero-2{
     text-align: center;
 }
-
 main{
     margin-top: 4rem;
     line-height: 30px;
 }
-
 .media{
     line-height: 30px;
 }
-
 .project{
     margin-top: 50px;
 }
-
+:any-link{
+    color: whitesmoke ;
+}
 img{
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
     margin: 1rem 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
-/* .img-1{
-    padding-left: 150px;
-} */
-
 section{
     margin-bottom: 2rem;
 }
-
 h1, h2, h3, h4, h5, h6{
     margin-bottom: 1rem;
 }
-
 .row{
     display: flex;
 }
-
 .card{
     box-shadow: 2px 2px 4px #333;
     padding: 0.5rem;
     border-radius: 20px;
 }
-
 .card-1{
     font-size: 30px;
    margin: 0rem 1rem;
 }
-
 .copy{
     display: flex;
     margin-bottom: 1.5rem;
@@ -153,7 +126,6 @@ h1, h2, h3, h4, h5, h6{
     .show-menu-btn, .hide-menu-btn{
         display: block;
     }
-
     .menu{
         position: fixed;
         width: 100%;
@@ -166,18 +138,15 @@ h1, h2, h3, h4, h5, h6{
         line-height: normal;
         transition: 0.7s;
     }
-
     .menu a{
         display: block;
         padding: 20px;
     }
-
     .hide-menu-btn{
         position: absolute;
         top: 40px;
         right: 40px;
     }
-
     #chk:checked ~ .menu{
         right: 0;
     }
@@ -215,15 +184,9 @@ h1, h2, h3, h4, h5, h6{
         display: block;
         text-align: center;
     }
-
-    /* .icon-1{
-        display: flex;
-    } */
-
     .col-md-4{
         margin-bottom: 30px;
     }
-
     .copy{
         margin-left: 70px;
     }

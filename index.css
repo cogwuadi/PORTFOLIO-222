@@ -82,6 +82,17 @@ main{
     margin-top: 4rem;
     line-height: 30px;
 }
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+}
+
+.img-2{
+    width: 27rem;
+    justify-content: space-evenly;
+}
 .media{
     line-height: 30px;
 }
